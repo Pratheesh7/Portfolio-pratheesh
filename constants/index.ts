@@ -33,14 +33,20 @@ export const SKILL_DATA = [
     height: 80,
   },
   {
-    skill_name: "React",
-    image: "react.png",
+    skill_name: "Redux",
+    image: "redux.png",
+    width: 80,
+    height: 80,
+  },
+   {
+    skill_name: "Material UI",
+    image: "mui.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Redux",
-    image: "redux.png",
+    skill_name: "React",
+    image: "react.png",
     width: 80,
     height: 80,
   },
@@ -74,18 +80,7 @@ export const SKILL_DATA = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Node.js",
-    image: "node.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
-  },
+  
 ] as const;
 
 export const SOCIALS = [
@@ -106,68 +101,8 @@ export const SOCIALS = [
   },
 ] as const;
 
-export const FRONTEND_SKILL = [
-  {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Material UI",
-    image: "mui.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-] as const;
+
+  
 
 export const BACKEND_SKILL = [
   {
@@ -177,7 +112,7 @@ export const BACKEND_SKILL = [
     height: 80,
   },
   {
-    skill_name: "Express.js",
+    skill_name: "Expr ess.js",
     image: "express.png",
     width: 80,
     height: 80,
@@ -259,23 +194,23 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Alumni Portal",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+      'A dedicated platform for college alumni to interact, share updates, post achievements, and stay connected with their alma mater. The portal fosters networking, event participation, and community engagement among graduates.',
+    image: "/projects/Screenshot%202025-08-28%20142045.png",
+    link: "https://www.karpagamalumni.in/home",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Recollect Space",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      'A secure digital space for storing and organizing captured photos, memories, and moments. Users can upload, categorize, and revisit their cherished images, making recollection easy and meaningful.',
     image: "/projects/project-2.png",
     link: "https://example.com",
   },
   {
-    title: "Space Themed Website",
+    title: "X-Ray Analysis",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      'An advanced tool for analyzing X-ray images, providing insights and visualizations for medical professionals. The project leverages AI to assist in diagnostics and improve accuracy in medical imaging.',
     image: "/projects/project-3.png",
     link: "https://example.com",
   },
