@@ -6,7 +6,7 @@ import {
   RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
-
+import image1 from "../projects/project-1.png";
 export const SKILL_DATA = [
   {
     skill_name: "HTML",
@@ -197,7 +197,7 @@ export const PROJECTS = [
     title: "Alumni Portal",
     description:
       'A dedicated platform for college alumni to interact, share updates, post achievements, and stay connected with their alma mater. The portal fosters networking, event participation, and community engagement among graduates.',
-    image: "/projects/Screenshot%202025-08-28%20142045.png",
+    image: {image1},
     link: "https://www.karpagamalumni.in/home",
   },
   {
