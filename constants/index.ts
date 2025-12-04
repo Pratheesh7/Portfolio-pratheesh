@@ -6,7 +6,7 @@ import {
   RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
-import image1 from "../projects/project-1.png";
+// import image1 from "../projects/project-1.png";
 export const SKILL_DATA = [
   {
     skill_name: "HTML",
@@ -197,21 +197,21 @@ export const PROJECTS = [
     title: "Alumni Portal",
     description:
       'A dedicated platform for college alumni to interact, share updates, post achievements, and stay connected with their alma mater. The portal fosters networking, event participation, and community engagement among graduates.',
-    image: {image1},
+    // image: {image1},
     link: "https://www.karpagamalumni.in/home",
   },
   {
     title: "Recollect Space",
     description:
       'A secure digital space for storing and organizing captured photos, memories, and moments. Users can upload, categorize, and revisit their cherished images, making recollection easy and meaningful.',
-    image: "/projects/project-2.png",
+    // image: "/projects/project-2.png",
     link: "https://example.com",
   },
   {
     title: "X-Ray Analysis",
     description:
       'An advanced tool for analyzing X-ray images, providing insights and visualizations for medical professionals. The project leverages AI to assist in diagnostics and improve accuracy in medical imaging.',
-    image: "/projects/project-3.png",
+    // image: "/projects/project-3.png",
     link: "https://example.com",
   },
 ] as const;
